@@ -1,0 +1,5 @@
+package com.deloitte.train.entity;
+
+public class Train {
+
+}

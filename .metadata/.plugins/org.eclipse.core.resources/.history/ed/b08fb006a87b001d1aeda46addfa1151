@@ -1,0 +1,5 @@
+package com.deloitte.train.dao;
+
+public interface TrainRepo {
+
+}

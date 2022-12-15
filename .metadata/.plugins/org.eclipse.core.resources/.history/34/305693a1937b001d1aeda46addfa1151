@@ -1,0 +1,17 @@
+package com.deloitte.railway.dao;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.deloitte.railway.entity.RailwayStation;
+import com.deloitte.railway.model.Pantry;
+import com.deloitte.railway.model.Train;
+
+@Repository
+public interface RailwayRepository extends JpaRepository<RailwayStation, Integer>{
+
+	List<Pantry> findPantriesByCode(Integer stationCode);
+	List<Train> findTrainsByCode(Integer stationCode);
+}

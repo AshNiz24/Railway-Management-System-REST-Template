@@ -1,0 +1,5 @@
+package com.deloitte.railway.entity;
+
+public class RailwayStation {
+
+}

@@ -1,0 +1,5 @@
+package com.deloitte.train.service;
+
+public interface TrainService {
+
+}

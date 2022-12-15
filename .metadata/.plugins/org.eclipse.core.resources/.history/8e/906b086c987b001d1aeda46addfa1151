@@ -1,0 +1,5 @@
+package com.deloitte.pantry.dao;
+
+public interface PantryRepository {
+
+}

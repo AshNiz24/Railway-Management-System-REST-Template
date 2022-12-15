@@ -1,0 +1,5 @@
+package com.deloitte.pantry.entity;
+
+public class Pantry {
+
+}

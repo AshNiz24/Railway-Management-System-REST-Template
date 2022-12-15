@@ -1,0 +1,5 @@
+package com.deloitte.pantry.service;
+
+public class PantryServiceImpl {
+
+}

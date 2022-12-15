@@ -1,0 +1,14 @@
+package com.deloitte.pantry.dao;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.deloitte.pantry.entity.Pantry;
+import com.deloitte.pantry.model.Food;
+
+public interface PantryRepository extends JpaRepository<Pantry, Integer>{
+	
+	List<Food> findByPantryId(Integer pid);
+
+}

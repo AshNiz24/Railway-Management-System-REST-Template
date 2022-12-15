@@ -1,0 +1,33 @@
+package com.deloitte.railway.service;
+
+import java.util.List;
+
+import com.deloitte.railway.entity.RailwayStation;
+
+public class RailwayServiceImpl implements RailwayService{
+
+	@Override
+	public List<RailwayStation> getAllStations() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public RailwayStation getStationByCode(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public RailwayStation addStation(RailwayStation station) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteStationByCode(RailwayStation station) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

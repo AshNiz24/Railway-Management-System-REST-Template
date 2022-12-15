@@ -1,0 +1,5 @@
+package com.deloitte.pantry.controller;
+
+public class PantryController {
+
+}

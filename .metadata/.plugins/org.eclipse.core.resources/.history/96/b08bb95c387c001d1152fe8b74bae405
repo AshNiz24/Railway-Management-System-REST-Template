@@ -1,0 +1,5 @@
+package com.deloitte.railway.model;
+
+public class Response {
+
+}
